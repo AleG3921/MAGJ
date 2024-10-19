@@ -17,16 +17,17 @@ namespace MAGJ.Temperatura.UnitTest.AppMSTest
 
             double temperature = converter.CelsiusToFahrenheit(88);
 
-            Assert.AreEqual(0.0, temperature);
+            Assert.AreEqual(190.4, temperature);
 
         }
+        [TestMethod]
         public void FahrenheitToCelsius()
         {
             TemperatureConverter converter = new TemperatureConverter();
 
-            double temperature = converter.CelsiusToFahrenheit(100);
+            double temperature = converter.FahrenheitToCelsius(95);
 
-            Assert.AreEqual(0.0, temperature);
+            Assert.AreEqual(35.0, temperature);
 
         }
     }

@@ -15,7 +15,7 @@ namespace MAGJ.Temperatura
         }
         public double FahrenheitToCelsius(double fahrenheit)
         {
-            return (fahrenheit - 32) * 9 / 5;
+            return (fahrenheit - 32) * 5 / 9;
         }
     }
 }
