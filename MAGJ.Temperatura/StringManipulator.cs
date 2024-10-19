@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace MAGJ.Temperatura
 {
-    internal class StringManipulator
+    public class StringManipulator
     {
-        public string ReversasString(string input)
+        public string ReversaString(string input)
         {
             char[] charArray = input.ToCharArray();
             Array.Reverse(charArray);
